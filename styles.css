@@ -80,7 +80,8 @@ form#nameForm h2::after {
   font-size: 1em;
 }
 
-input[type='submit'] {
+input[type='submit'],
+button {
   background: linear-gradient(to right, #1db954, #008080);
   color: white;
   border: none;
@@ -96,11 +97,25 @@ input[type='submit'] {
 }
 
 input[type='submit']:hover {
-  background-color: #1ed760;
+  background: linear-gradient(to right, #1ed760, #008080);
+}
+
+button {
+  background: #121212;
+  width: 80%;
+  padding: 10px 25px;
+}
+
+button:hover {
+  background: #232323;
 }
 
 #submitbody {
   width: 300px;
   word-wrap: break-word;
   overflow-wrap: break-word;
+}
+
+div#childInformation {
+  margin-top: 40px;
 }
