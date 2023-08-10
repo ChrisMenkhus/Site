@@ -1,0 +1,106 @@
+body {
+  background: linear-gradient(to bottom, #121212, #000000);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  position: relative;
+}
+
+nav {
+  background-color: #000000;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: normal;
+  padding: 1.5em 1.5em 1.5em 2em;
+}
+
+form#nameForm {
+  background-color: #000000;
+  max-width: 600px;
+  width: 100%;
+  margin: 20px;
+  padding: 50px 150px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 150px;
+}
+
+form#nameForm h2 {
+  font-size: 3em;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+form#nameForm h2::after {
+  content: '';
+  display: block;
+  width: 150%;
+  height: 0.5px;
+  background: gray;
+  margin: 20px 0;
+  position: absolute;
+  bottom: -50px;
+  left: -25%;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 0.8em;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.input-group input[type='text'] {
+  background-color: #121212;
+  color: #ffffff;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+input[type='submit'] {
+  background: linear-gradient(to right, #1db954, #008080);
+  color: white;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  margin: 50px auto;
+  width: 100%;
+}
+
+input[type='submit']:hover {
+  background-color: #1ed760;
+}
+
+#submitbody {
+  width: 300px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
